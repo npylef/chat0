@@ -20,7 +20,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Chat0',
   description: 'Fastest AI Chat App',
-  manifest: '/manifest.json',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
     { media: '(prefers-color-scheme: dark)', color: '#000000' }
