@@ -11,8 +11,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-<<<<<<< HEAD
 export default nextConfig;
-=======
-export default nextConfig;
->>>>>>> parent of 2f55361 (pwa)
