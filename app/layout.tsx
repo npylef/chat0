@@ -5,7 +5,6 @@ import 'katex/dist/katex.min.css';
 import { Toaster } from '@/frontend/components/ui/sonner';
 import { ThemeProvider } from '@/frontend/components/ui/ThemeProvider';
 import { Analytics } from '@vercel/analytics/react';
-import { PWAInstallPrompt } from '@/frontend/components/PWAInstallPrompt';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -20,6 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Chat0',
   description: 'Fastest AI Chat App',
+<<<<<<< HEAD
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
     { media: '(prefers-color-scheme: dark)', color: '#000000' }
@@ -30,6 +30,8 @@ export const metadata: Metadata = {
     statusBarStyle: 'default',
     title: 'Chat0'
   }
+=======
+>>>>>>> parent of 2f55361 (pwa)
 };
 
 export default function RootLayout({
@@ -50,7 +52,6 @@ export default function RootLayout({
         >
           {children}
           <Toaster richColors position="top-right" />
-          <PWAInstallPrompt />
         </ThemeProvider>
         <Analytics />
       </body>
